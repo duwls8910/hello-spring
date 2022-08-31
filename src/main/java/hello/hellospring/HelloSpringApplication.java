@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+//이 어노테이션으로부터 시작하여 1번의 패키지안에  하위들은 자동으로 스프링 다뒤져서 스프링 빈으로 등록함
 public class  HelloSpringApplication {
 
 	public static void main(String[] args) { //자바는 메인메서드로부터 모든것을 시작한다
